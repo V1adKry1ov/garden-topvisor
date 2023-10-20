@@ -1,25 +1,10 @@
-# garden-topvisor
+Ссылка на рабочий проект https://v1adkry1ov.github.io/garden-topvisor/
 
-## Project setup
-```
-npm install
-```
+Основной функционал:
+-Можно посадить сад, у сада N количество деревьев с N2 количеством яблок
+-Переход в следующий день. Прибавляется день к возрасту сада и яблок
+-Яблоки падают с деревьев в диапозоне 28-31 дня при шансе 50%, если к 32 дню яблоко висит на дереве, оно упадет 100%
+-Яблоко гниет на следующий день после падения с дерева
+-После 5 дней с момента гниения яблока оно удалется из списка
+-Каждые 30 дней сада на всех деревьях появляется по яблоку
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
-# garden-topvisor
